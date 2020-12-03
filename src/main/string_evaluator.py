@@ -42,4 +42,5 @@ class StringManipulator(object):
         return second_word  # TODO - Implement solution
 
     def reverse(self, string_to_be_reversed):
-        return None  # TODO - Implement solution
+        reversed = string_to_be_reversed[::-1]
+        return reversed  # TODO - Implement solution
