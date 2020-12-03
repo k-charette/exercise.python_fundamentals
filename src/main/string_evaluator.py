@@ -41,3 +41,6 @@ class StringManipulator(object):
         second_word = split_string[1]
         return second_word  # TODO - Implement solution
 
+    def reverse(self, string_to_be_reversed):
+        reversed = string_to_be_reversed[::-1]
+        return reversed  # TODO - Implement solution
