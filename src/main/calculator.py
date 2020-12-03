@@ -13,7 +13,7 @@ class Calculator(object):
         return total # TODO - Implement solution
 
     def divide(self, a, b):
-        total = a / b
-        return total # TODO - Implement solution
+        x = a / b
+        return round(x, 3)
 
 
